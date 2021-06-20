@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="InterfazGráfica.VentanaReportes">
+  <grid id="27dc6" binding="ventanaReportesPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2d666" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Partidas"/>
+        </properties>
+      </component>
+      <component id="e838b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Animales"/>
+        </properties>
+      </component>
+      <component id="e92d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Plantas"/>
+        </properties>
+      </component>
+      <scrollpane id="73122">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="97c" class="javax.swing.JTable" binding="partidasDataTable" custom-create="true">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="200" height="75"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="2f49">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="52612" class="javax.swing.JTable" binding="animalesDataTable" custom-create="true">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="100" height="75"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="6d42">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7a0bc" class="javax.swing.JTable" binding="plantasDataTable" custom-create="true">
+            <constraints/>
+            <properties>
+              <preferredScrollableViewportSize width="100" height="75"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
